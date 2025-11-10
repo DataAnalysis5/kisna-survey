@@ -35,7 +35,7 @@ app.use(express.static("public"))
 
 // Database connection
 mongoose
-  .connect("mongodb://mongodb:27017/survey_app", {
+  .connect("mongodb+srv://dikshantbuwa2_kisna_survey:KisnaSurvey12@kisna-survey.fwmmey6.mongodb.net/?appName=kisna-survey", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -648,3 +648,4 @@ app.post("/api/logout", (req, res) => {
   // In a real application with server-side sessions, you would invalidate the session here
   res.json({ success: true })
 })
+
