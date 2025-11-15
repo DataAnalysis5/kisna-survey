@@ -1045,7 +1045,7 @@ async function loadAvailableSurveys() {
           <div class="center-submit">
             ${
               activeIndex === availableSurveys.length - 1
-                ? `<button type="submit" style="background-color: ${activeSurvey.color || "#253074"}">Submit Survey</button>`
+                ? `<button type="submit" style="background-color: ${activeSurvey.color || "#253074"}">Submit</button>`
                 : ""
             }
           </div>
@@ -1758,3 +1758,4 @@ window.addEventListener("load", () => {
     window.showAdminLogin()
   }
 })
+
