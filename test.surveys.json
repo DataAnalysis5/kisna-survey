@@ -1,0 +1,123 @@
+[{
+  "_id": {
+    "$oid": "6913074a7ea06225da507df1"
+  },
+  "title": "Employee Survey",
+  "department": "all",
+  "questions": [
+    {
+      "text": "What type of house do you live in? ",
+      "type": "radio",
+      "options": [
+        "Own House",
+        "Rented House"
+      ],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df2"
+      }
+    },
+    {
+      "text": "What type of vehicle do you own?",
+      "type": "radio",
+      "options": [
+        "Two Wheeler",
+        "Four Wheeler",
+        "Both",
+        "None"
+      ],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df3"
+      }
+    },
+    {
+      "text": "Which state of India, you are residing",
+      "type": "dropdown",
+      "options": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal",
+        "Andaman and Nicobar Islands",
+        "Chandigarh",
+        "Dadra and Nagar Haveli and Daman and Diu",
+        "Delhi",
+        "Jammu and Kashmir",
+        "Ladakh",
+        "Lakshadweep",
+        "Puducherry"
+      ],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df4"
+      }
+    },
+    {
+      "text": "Are your Physically Challenged",
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df5"
+      }
+    },
+    {
+      "text": "Have you went on vacation with family in the last one year",
+      "type": "radio",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df6"
+      }
+    },
+    {
+      "text": "What is your primary qualification",
+      "type": "text",
+      "options": [],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df7"
+      }
+    },
+    {
+      "text": "What is your secondary qualification",
+      "type": "text",
+      "options": [],
+      "_id": {
+        "$oid": "6913074a7ea06225da507df8"
+      }
+    }
+  ],
+  "isAllDepartments": true,
+  "active": true,
+  "color": "#253074",
+  "createdAt": {
+    "$date": "2025-11-11T09:52:10.830Z"
+  },
+  "__v": 0
+}]
